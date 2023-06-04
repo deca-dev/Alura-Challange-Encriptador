@@ -55,7 +55,9 @@ main {
     border: none;
     color: #0a3871;
     text-transform: lowercase;
-    background: #F3F5FC;
+    /* background: #F3F5FC; */
+    background-color: red;
+    width: 85%;
 }
 
 ::placeholder { color: #0A3871;}
@@ -64,12 +66,14 @@ main {
     }
 
 .mensaje {
-    background: white;
+    /* background: white; */
+    background: yellow;
     background-image: url("./assets/images/Muñeco.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
     color: #0A3871;
+    width: 95%;
    
 }
 
