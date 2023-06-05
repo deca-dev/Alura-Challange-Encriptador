@@ -65,7 +65,7 @@ function copiar() {
  }
 
 function encriptar(frase) {
-    let matrizCodigo = [["e", "enter"], ["é", "rtr"], ["i", "mmm"],  ["í", "xxx"], ["a", "kkk"], ["á", "jgg"], ["o", "ober"],  ["ó", "vxv"], ["u", "ufat"], ["¿", "csc"], ["?", "frf"],  ["¡", "nn"], ["!", "zzz"]];
+    let matrizCodigo = [["e", "enter"], ["é", "rtr"], ["i", "imes"],  ["í", "xxx"], ["a", "ai"], ["á", "jgg"], ["o", "ober"],  ["ó", "vxv"], ["u", "ufat"], ["¿", "csc"], ["?", "frf"],  ["¡", "nn"], ["!", "zzz"]];
     frase = frase.toLowerCase();
     for(let i= 0; i<matrizCodigo.length; i++){
         if(frase.includes(matrizCodigo[i][0])) {
@@ -77,7 +77,7 @@ function encriptar(frase) {
 
 
 function desencriptar(fraseDesencriptada) {
-    let matrizCodigo = [["e", "enter"], ["é", "rtr"], ["i", "mmm"],  ["í", "xxx"], ["a", "kkk"], ["á", "jgg"], ["o", "ober"],  ["ó", "vxv"], ["u", "ufat"], ["¿", "csc"], ["?", "frf"],  ["¡", "nn"], ["!", "zzz"]];
+    let matrizCodigo = [["e", "enter"], ["é", "rtr"], ["i", "imes"],  ["í", "xxx"], ["a", "ai"], ["á", "jgg"], ["o", "ober"],  ["ó", "vxv"], ["u", "ufat"], ["¿", "csc"], ["?", "frf"],  ["¡", "nn"], ["!", "zzz"]];
     fraseDesencriptada = fraseDesencriptada.toLowerCase();
     for(let i= 0; i<matrizCodigo.length; i++){
         if(fraseDesencriptada.includes(matrizCodigo[i][1])) {
